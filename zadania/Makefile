@@ -3,7 +3,7 @@
 
 CC=g++
 CFLAGS=-I.
-OBJ = zadanie1
+OBJ = zadanie1 zadanie2
 
 # the special macros $@ and $^ are the left and right sides of the :
 zadanie: $(OBJ)
@@ -11,4 +11,4 @@ zadanie: $(OBJ)
 
 .PHONY: clean
 clean: 
-	rm zadanie1
+	rm zadanie1 zadanie2
